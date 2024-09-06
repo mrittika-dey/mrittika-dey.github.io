@@ -20,3 +20,15 @@ button:hover .hover-effect {
 button {
     transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
 }
+
+/* Remove default link styles */
+.custom-link {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Apply custom hover styles */
+.custom-link:hover {
+    color: #5985b5; /* Custom hover color */
+    text-decoration: underline; /* Add underline on hover */
+}
