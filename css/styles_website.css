@@ -14,8 +14,6 @@ button {
 button:hover .hover-effect {
     color: #5985b5;
     text-decoration: underline; /* Underline text on hover */
-    font-size: inherit; /* Inherit the font size from parent */
-    font-weight: inherit;
 }
 
 /* Optional: Add transition for smooth effect */
