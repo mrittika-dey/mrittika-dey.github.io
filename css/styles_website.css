@@ -12,10 +12,11 @@ button {
 
 /* Hover effect only for papertitle inside button */
 button:hover .hover-effect {
+    color: #5985b5;
     text-decoration: underline; /* Underline text on hover */
 }
 
 /* Optional: Add transition for smooth effect */
 button {
-    transition: background-color 0.3s, text-decoration 0.3s;
+    transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
 }
