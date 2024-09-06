@@ -1,23 +1,23 @@
-.custom-button {
+/* Base button styles */
+button {
     border: 0;
-    background-color: #007bff;
-    color: white;
+    background-color: transparent;
     outline: none;
     font-size: larger;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #333; /* Default text color */
+    padding: 10px; /* Adjust padding as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    text-decoration: none; /* Remove underline by default */
 }
 
-.custom-button:hover {
-    background-color: #0056b3;
+/* Hover effect */
+button:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    color: #007bff; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
 }
 
-.custom-button a {
-    color: white;
-    text-decoration: none;
-}
-
-.custom-button a:hover {
-    text-decoration: underline;
+/* Optional: Add transition for smooth effect */
+button {
+    transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
 }
