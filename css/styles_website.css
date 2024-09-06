@@ -5,7 +5,7 @@ button {
     outline: none;
     font-size: larger;
     color: #333; /* Default text color */
-    padding: 10px; /* Adjust padding as needed */
+    padding: 4px; /* Adjust padding as needed */
     cursor: pointer; /* Show pointer cursor on hover */
     text-decoration: none; /* Remove underline by default */
 }
